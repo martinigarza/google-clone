@@ -27,7 +27,7 @@ a {
 }
 .iconoapps {
     font-family: 'icomoon' !important;
-    speak: none;
+    speak-as: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
