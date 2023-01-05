@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: arial, helvetica, sans-serif;
+}
+.nav {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+    margin: 16px 30px 0px;
+}
+.gmail {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+.imagenes {
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+}
+.iconoapps {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 22px;
+    content: "/e900";
+}
+.iniciar_sesion {
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    color: white;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    font-weight: bold;
+    width: auto;
+}
+.main_container {
+    display: grid;
+
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+.logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 108px;
+    font-size: 90px;
+    width: 271px;
+    height: 96px
+}
+.container_search {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 45px
+}
+.barra {
+    display: grid;
+    grid-template-columns: 52px 480px 52px;
+    grid-template-rows: 46px;
+    grid-template-areas: " lupa caja micro";
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position: relative;
+}
+.lupa {
+    grid-area: lupa;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #dfe1e5 solid 1px;
+    border-right: none;
+    color: #9AA0A6;
+    border-radius: 100px 0px 0px 100px
+}
+.caja {
+    grid-area: caja;
+    border-top: #dfe1e5 solid 1px;
+    border-bottom: #dfe1e5 solid 1px;
+    border-left: none;
+    height: 100%;
+    position: relative;
+}
+.busqueda {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.micro {
+    grid-area: micro;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #dfe1e5 solid 1px;
+    border-left: none;
+    border-radius: 0px 100px 100px 0px;
+}
+.botonesdebusqueda {
+    display: flex;
+    padding-top: 18px;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+.buscarcongoogle {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    width: 153.7px;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-stretch: 100%;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+}
+.suerte {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    width: 153.7px;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-stretch: 100%;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+}
+footer {
+    background: #f2f2f2;
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.menu_pais {
+    font-size: 13px;
+    color: rgba(0,0,0,.54);
+    /* margin-left: 30px; */
+    text-align: left;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    border-top: 1px solid #e4e4e4;
+}
+.menu_pais p {
+    padding-left: 27px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.menu_footer {
+    background: #f2f2f2;
+    height: 35px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    border-top: 1px solid #e4e4e4;
+}
+.menu_left {
+    display: block;
+    position: relative;
+    justify-content: space-between;
+    text-align: left;
+}
+.menu_right {
+    display: block;
+    position: relative;
+    justify-content: space-between;
+    text-align: right;
+    padding-right: 30px;
+}
+.menu_left a {
+    padding-left: 27px;
+} 
+.menu_right a {
+    padding-left: 27px;
+}
